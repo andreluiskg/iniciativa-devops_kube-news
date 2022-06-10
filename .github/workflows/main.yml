@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Autenticando o usuário no Docker
+      - name: Autenticando o usuario no Docker
         uses: docker/login-action@v2.0.0
         with:
           username: ${{secrets.DOCKERHUB_USER}}
