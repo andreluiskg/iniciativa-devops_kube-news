@@ -36,8 +36,8 @@ jobs:
           context: ./src
           push: true
           tags: |
-            andreluiskg/kube-news:latest
             andreluiskg/kube-news:${{github.run_number}}
+            andreluiskg/kube-news:latest
           
   CD:
     runs-on: ubuntu-latest
