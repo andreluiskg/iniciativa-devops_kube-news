@@ -36,7 +36,6 @@ spec:
   - port: 5432
     targetPort: 5432
 ---
-# Deployment do Site
 apiVersion: apps/v1
 kind: Deployment
 metadata:
