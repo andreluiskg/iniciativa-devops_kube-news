@@ -36,8 +36,8 @@ jobs:
           context: ./src
           push: true
           tags: |
-            andreluiskg/kube-news:${{github.run_number}}
             andreluiskg/kube-news:latest
+            andreluiskg/kube-news:${{github.run_number}}
           
   CD:
     runs-on: ubuntu-latest
@@ -58,3 +58,4 @@ jobs:
           images: andreluiskg/kube-news:${{github.run_number}}
           manifests: |
             k8s/deployment.yaml
+
