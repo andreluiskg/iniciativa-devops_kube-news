@@ -21,4 +21,4 @@
   
  # parte de CD 
   5) complementar o [workflows](https://github.com/tedydevops/kube-news/tree/main/.github/workflows) a parte de CD e: 
-  - criar Secrets: K8S_CONFIG  e dentro dele colar todo o conteudo do kubec_config.yaml
+  - criar Secrets: K8S_CONFIG  e dentro dele colar todo o conteudo do kubec_config.yaml
